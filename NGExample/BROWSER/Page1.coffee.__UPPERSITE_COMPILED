@@ -1,0 +1,14 @@
+//1394990002000
+(function() {
+  NGExample.Page1 = CLASS({
+    preset: function() {
+      return NG.VIEW;
+    },
+    init: function(cls, inner, self, params) {
+      var close;
+      console.log('Page 1!');
+      return self.close = close = function() {};
+    }
+  });
+
+}).call(this);

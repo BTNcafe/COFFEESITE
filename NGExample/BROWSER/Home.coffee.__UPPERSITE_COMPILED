@@ -1,0 +1,14 @@
+//1394989939000
+(function() {
+  NGExample.Home = CLASS({
+    preset: function() {
+      return NG.VIEW;
+    },
+    init: function(cls, inner, self, params) {
+      var close;
+      console.log('Home!');
+      return self.close = close = function() {};
+    }
+  });
+
+}).call(this);
