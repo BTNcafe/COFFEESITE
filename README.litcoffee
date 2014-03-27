@@ -1,6 +1,6 @@
 COFFEESITE
 ==========
-UPPERSITE run with CoffeeScript!
+UPPERSITE run with IcedCoffeeScript!
 
 CONTACT: contact@btncafe.com
 
